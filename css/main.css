@@ -1,0 +1,134 @@
+/* colors 
+ red:#F72C25;
+yellow:#F7B32B;
+purple:#2D1E2F;
+light-yellow:#FCF6B1; */
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #24418f;
+  background: #71ac58;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav ul {
+  list-style-type: none;
+  display: none;
+}
+nav ul a {
+  display: block;
+  padding: 20px;
+  background: #86d943;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #71ac58;
+  transition: color 1s ease, background 1s ease, padding 1s ease;
+  font-weight: bold;
+}
+nav ul a:hover {
+  background: #24418f;
+  color: #fff;
+  padding-left: 30px;
+}
+.nav-box img {
+  width: 100px;
+  align-self: center;
+}
+.nav-box {
+  padding: 0 20px;
+  background: #f7b32b;
+  border-bottom: 1px solid #fcf6b1;
+  display: flex;
+  justify-content: space-between;
+}
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: #f72c25;
+}
+.btn {
+  padding: 2px;
+  display: inline-block;
+  border: 2px solid #24418f;
+  align-self: center;
+  display: block;
+  border-radius: 5px;
+}
+header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  flex: 0 0 auto;
+}
+
+.banner {
+  width: 960px;
+  height: 275px;
+  margin: 3.4rem auto;
+  background: url(../img/banner_large.jpg) 50% 40% fixed no-repeat;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-center {
+  padding: 5px;
+  background: linear-gradient(
+    rgba(252, 246, 177, 0.7),
+    rgba(252, 246, 177, 0.7)
+  );
+  margin-bottom: 2%;
+}
+.banner h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #f72c25;
+}
+.banner h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #f72c25;
+}
+.banner h5 {
+  font-size: 20px;
+  color: #f72c25;
+  background: #fcf6b1;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.banner-icons {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-icons a {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  color: #24418f;
+  transition: color 1s ease, transform 1s ease;
+}
+.banner-icons a:hover {
+  color: #24418f;
+  transform: translatey(-10px);
+}
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
